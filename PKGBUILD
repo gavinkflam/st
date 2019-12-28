@@ -3,12 +3,11 @@
 
 pkgname=st
 pkgver=0.8.2
-pkgrel=1
+pkgrel=2
 pkgdesc='A simple virtual terminal emulator for X.'
 arch=('i686' 'x86_64')
 license=('MIT')
-depends=('libxft' 'libxext' 'xorg-fonts-misc')
-makedepends=('ncurses')
+depends=('libxft')
 url="http://st.suckless.org"
 source=(http://dl.suckless.org/st/$pkgname-$pkgver.tar.gz
         config.h)
